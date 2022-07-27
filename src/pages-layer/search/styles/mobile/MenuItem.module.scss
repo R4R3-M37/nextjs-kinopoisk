@@ -1,0 +1,11 @@
+.h3_root {
+	@apply mx-2 -my-3 flow-root;
+}
+
+.button_root {
+	@apply px-2 py-3 bg-white w-full flex items-center justify-between text-gray-400 hover:text-gray-500;
+}
+
+.button_title {
+	@apply font-medium text-gray-900;
+}

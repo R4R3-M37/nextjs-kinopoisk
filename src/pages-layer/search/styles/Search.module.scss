@@ -1,0 +1,55 @@
+.div_search_root {
+	@apply bg-white dark:bg-gray-700;
+}
+
+.div_search_block {
+	@apply container p-6 mx-auto;
+}
+
+.div_search_extended {
+	@apply flex-col md:flex-row relative z-10 flex items-baseline justify-between pb-6 border-b border-gray-200;
+}
+
+.h1_search_title {
+	@apply text-4xl font-extrabold tracking-tight text-gray-900;
+}
+
+.div_flex {
+	@apply flex items-center;
+}
+
+.button_filter {
+	@apply p-2 -m-2 ml-4 sm:ml-6 text-gray-400 hover:text-gray-500 lg:hidden;
+}
+
+.span_filter_title {
+	@apply sr-only;
+}
+
+.section_root {
+	@apply pt-6 pb-24;
+}
+
+.div_modify_block {
+	@apply grid grid-cols-1 lg:grid-cols-4 gap-x-8 gap-y-10;
+}
+
+.hidden_lg_only {
+	@apply hidden lg:block;
+}
+
+.div_rating_block {
+	@apply border-b border-gray-200 py-6;
+}
+
+.rating_title {
+	@apply -my-3 flow-root;
+}
+
+.title_name {
+	@apply font-medium text-gray-900;
+}
+
+.title_button {
+	@apply py-3 bg-white w-full flex items-center justify-between text-sm text-gray-400 hover:text-gray-500;
+}

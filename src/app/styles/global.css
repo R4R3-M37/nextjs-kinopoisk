@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+	width: 0.5em;
+	height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #29d;
+}
+
+::-webkit-scrollbar {
+	background-color: rgb(161 161 170);
+}
+
+.items {
+	padding-bottom: 0.75rem;
+	padding: 1.5rem;
+	border-width: 1px;
+	margin-bottom: 0.75rem;
+	border-radius: 0.25rem;
+	font-size: 20px;
+}
+
+.items a {
+	text-decoration: underline;
+}
+
+[type='text']:focus {
+	border-radius: 4px;
+}
+
+button.MuiButton-root.MuiButton-contained.MuiButton-containedSuccess.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-ke5b6m-MuiButtonBase-root-MuiButton-root {
+	background-color: initial !important;
+}
+
+div#yohoho {
+	width: 100% !important;
+	height: 100% !important;
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+iframe#yohoho-iframe {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+@media (min-width: 500px) {
+	button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeLarge.MuiButton-outlinedSizeLarge.MuiButtonBase-root.mt-2.sm\:mx-3.sm\:mt-0.dark\:bg-zinc-300.dark\:text-zinc-800.css-9y1egq-MuiButtonBase-root-MuiButton-root {
+		margin-top: 0px !important;
+	}
+}
+
+@media (min-width: 500px) {
+	button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeLarge.MuiButton-outlinedSizeLarge.MuiButtonBase-root.mt-2.sm\:mx-3.sm\:mt-0.dark\:bg-zinc-300.dark\:text-zinc-800.css-9y1egq-MuiButtonBase-root-MuiButton-root {
+		margin-left: 0.75rem !important;
+		margin-right: 0.75rem !important;
+	}
+}
+
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeLarge.MuiButton-outlinedSizeLarge.MuiButtonBase-root.mt-2.sm\:mx-3.sm\:mt-0.dark\:bg-zinc-300.dark\:text-zinc-800.css-9y1egq-MuiButtonBase-root-MuiButton-root {
+	margin-top: 0.5rem;
+}
+
+button.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root.bg-blue-200.dark\:bg-blue-200.rounded-3xl.hover\:bg-blue-400.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+	--tw-bg-opacity: 1 !important;
+	background-color: rgb(191 219 254) !important;
+}
+
+label#rating-textarea-label {
+	padding: 1rem;
+}
+
+button#\:rd\: {
+	margin-top: 1.5rem;
+}
+
+.scroll-disabled {
+	overflow: hidden;
+}

@@ -1,0 +1,11 @@
+.div_root {
+	@apply flex items-center py-3;
+}
+
+.input_root {
+	@apply h-4 w-4 border-gray-300 rounded text-indigo-600 cursor-pointer;
+}
+
+.label_root {
+	@apply ml-3 min-w-0 flex-1 text-gray-500 cursor-pointer;
+}

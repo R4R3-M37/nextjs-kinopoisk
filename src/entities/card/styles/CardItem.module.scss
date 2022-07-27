@@ -1,0 +1,7 @@
+.card_root {
+	@apply hover:-translate-y-4 transition-all transition-transform border-2;
+}
+
+.card_rating {
+	@apply absolute border border-green-600 bg-green-600 mt-4 ml-4 p-2 rounded text-white;
+}

@@ -1,0 +1,7 @@
+.div_root {
+	@apply flex items-center py-6 text-3xl font-bold;
+}
+
+.span_header {
+	@apply text-white cursor-pointer #{!important};
+}

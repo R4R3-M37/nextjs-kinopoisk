@@ -1,0 +1,9 @@
+.div {
+    &_root {
+		@apply flex flex-grow overflow-auto;
+	}
+
+	&_block {
+		@apply flex-1 h-screen overflow-auto;
+	}
+}

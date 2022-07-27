@@ -1,0 +1,19 @@
+.section_root {
+	@apply bg-white;
+}
+
+.container {
+	@apply p-6;
+}
+
+.div_movie {
+	@apply flex flex-col md:flex-row mb-12;
+}
+
+.link {
+	@apply text-2xl;
+}
+
+.header {
+	@apply w-full;
+}

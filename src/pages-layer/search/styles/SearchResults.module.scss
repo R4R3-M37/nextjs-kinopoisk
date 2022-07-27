@@ -1,0 +1,11 @@
+.div_root {
+	@apply lg:col-span-3;
+}
+
+.div_block {
+	@apply lg:border-4 lg:border-dashed lg:border-gray-200 lg:rounded-lg lg:h-96 lg:lg:h-full;
+}
+
+.section_root {
+	@apply bg-white py-8;
+}

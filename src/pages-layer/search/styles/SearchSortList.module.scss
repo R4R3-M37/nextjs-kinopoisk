@@ -1,0 +1,19 @@
+.div_root {
+	@apply relative inline-block text-left;
+}
+
+.button_sort_by {
+	@apply group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900;
+}
+
+.modal_root {
+	@apply origin-top-right absolute left-0 md:left-auto right-0 mt-2 w-40 rounded-md shadow-2xl bg-white ring-1 ring-black ring-opacity-5 focus:outline-none;
+}
+
+.modal_active {
+	@apply text-gray-500 block px-4 py-2 text-sm text-black;
+}
+
+.modal_close {
+	@apply text-gray-500 block px-4 py-2 text-sm;
+}

@@ -1,0 +1,35 @@
+.card {
+	&_root {
+		@apply flex mr-3 p-2;
+	}
+
+	&_border {
+		@apply border-2;
+	}
+
+	&_description {
+		@apply capitalize;
+	}
+
+	&_title {
+		@apply text-black;
+	}
+
+	&_rating {
+		@apply absolute top-0 w-fit border border-green-600 bg-green-600 mt-4 ml-4 p-2 mb-4 rounded text-white;
+	}
+}
+
+.button {
+	&_arrow {
+		@apply bg-blue-200 rounded-3xl hover:bg-blue-400;
+	}
+
+	&_root {
+		@apply py-6;
+	}
+}
+
+.scrollable {
+	@apply flex overflow-auto;
+}
