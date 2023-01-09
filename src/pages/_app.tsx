@@ -11,6 +11,7 @@ import '@/app/styles/global.css'
 const isMobile: boolean = navigator?.userAgentData?.mobile || /iPhone|iPad|iPod|Android/i.test(navigator?.userAgent)
 
 if (isMobile) {
+	console.log('mobile')
 	window.location.href = 'https://nextjs-kinopoisk.vercel.app/'
 }
 
