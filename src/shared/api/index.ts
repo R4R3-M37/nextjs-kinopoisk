@@ -13,19 +13,19 @@ export const kinopoiskApi = createApi({
 		}),
 		getFavoriteFilms: build.query<IFilmRoot, IGetFavoriteFilmsQueryArgs>({
 			query: ({ page, favorites }) =>
-				`/movie?search[]=1-10&field=rating.kp&${favorites}&sortField=year&sortType=-1&limit=12&page=${page}&token=${TOKEN}`
+				`/movie?search[]=1-10&field=rating.kp&${favorites}&sortField=year&sortType=-1&page=${page}&token=${TOKEN}`
 		}),
 		getNewFilms: build.query<IFilmRoot, number>({
 			query: (page) =>
-				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=1&limit=12&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
+				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=1&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
 		}),
 		getNewSerials: build.query<IFilmRoot, number>({
 			query: (page) =>
-				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=2&limit=12&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
+				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=2&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
 		}),
 		getNewAnime: build.query<IFilmRoot, number>({
 			query: (page) =>
-				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=4&limit=12&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
+				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=4&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
 		}),
 		getFilmByName: build.query<IFilmRoot, string>({
 			query: (input) =>
@@ -33,11 +33,11 @@ export const kinopoiskApi = createApi({
 		}),
 		getCartoons: build.query<IFilmRoot, number>({
 			query: (page) =>
-				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=3&limit=12&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
+				`/movie?field=rating.kp&search=1-10&field=year&search=${currentYear-1}-${currentYear}&field=typeNumber&search=3&page=${page}&sortField=year&sortType=1&sortField=votes.imdb&sortType=-1&token=${TOKEN}`
 		}),
 		getMovieBySearch: build.query<IFilmRoot, any>({
 			query: ({ rating, year, sortType, sortBy, category, page }: any) =>
-				`/movie?field=rating.kp&search=${rating}&field=year&search=${year}&field=typeNumber&search=${category}&limit=12&page=${page}&sortField=year&sortType=1&sortField=${sortBy}&sortType=${sortType}&token=${TOKEN}`
+				`/movie?field=rating.kp&search=${rating}&field=year&search=${year}&field=typeNumber&search=${category}&page=${page}&sortField=year&sortType=1&sortField=${sortBy}&sortType=${sortType}&token=${TOKEN}`
 		}),
 		getPersonById: build.query<IPersonRoot, string | string[] | undefined>({
 			query: (id) => `/person?field=id&search=${id}&token=97CT04G-7VT48YR-G0FYQ1R-BF92T79`
